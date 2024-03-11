@@ -6,28 +6,28 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
 /* HEADER */
 header {
     background-color: lightskyblue;
     height: 25rem;
 }
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .header {
     background-color: lightskyblue;
     width: 100%;
-    padding: 1rem;
 }
 
 .top-bar {
     background-color: burlywood;
     border: 1px black solid;
     height: 2rem;
-    width: calc(60% / 3);
 }
 
 .banner {
@@ -44,6 +44,44 @@ header {
 
 /* MENU */
 
-.menu {
-    width: 50%;
+.menu {  
+    width: 30%; 
+}
+
+.logo {
+    width: 20%;
+}
+
+.login {
+    width: 20%;
+}
+
+/* MAIN */
+
+.white {
+    background-color: white;
+    width: 100%;
+}
+
+.gray {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.blue {
+    background-color: blue;
+    width: 40%;
+    height: 400px;
+}
+
+.rosa {
+    background-color: pink;
+    width: 20%;
+    height: 400px;
+}
+
+.big-square {
+    width: 60%;
+    height: 500px;
+    background-color: green;
 }
