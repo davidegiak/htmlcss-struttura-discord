@@ -1,0 +1,49 @@
+/******************DEFAULT SETTINGS******************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    background-color: lightskyblue;
+    height: 25rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 1rem;
+}
+
+.top-bar {
+    background-color: burlywood;
+    border: 1px black solid;
+    height: 2rem;
+    width: calc(60% / 3);
+}
+
+.banner {
+    background-color: blue;
+    width: 100%;
+    height: 20rem;
+}
+
+.banner-caption {
+    background-color: darkorchid;
+    width: 50%;
+    height: 60%;   
+}
+
+/* MENU */
+
+.menu {
+    width: 50%;
+}
